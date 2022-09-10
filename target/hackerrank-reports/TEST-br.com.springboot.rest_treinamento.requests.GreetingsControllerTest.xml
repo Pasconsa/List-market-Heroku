@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.springboot.rest_treinamento.requests.GreetingsControllerTest" tests="3" failures="3" errors="0" skipped="0" time="5.217">
+  <testcase classname="br.com.springboot.rest_treinamento.requests.GreetingsControllerTest" name="greetJava" time="5.2">
+    <failure>java.lang.AssertionError: Status expected:&lt;200&gt; but was:&lt;404&gt;&#xD;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:55)&#xD;
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:82)&#xD;
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:619)&#xD;
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:195)&#xD;
+	at br.com.springboot.rest_treinamento.requests.GreetingsControllerTest.greetJava(GreetingsControllerTest.java:59)&#xD;
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)&#xD;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)&#xD;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#xD;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#xD;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#xD;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#xD;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)&#xD;
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)&#xD;
+	at org.springframework.test.context.junit4.statements.RunPrepareTestInstanceCallbacks.evaluate(RunPrepareTestInstanceCallbacks.java:64)&#xD;
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)&#xD;
+	at org.springframework.test.context.junit4.statements.SpringFailOnTimeout.evaluate(SpringFailOnTimeout.java:87)&#xD;
+	at org.springframework.test.context.junit4.statements.ProfileValueChecker.evaluate(ProfileValueChecker.java:103)&#xD;
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#xD;
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#xD;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#xD;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#xD;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#xD;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#xD;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#xD;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#xD;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#xD;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#xD;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#xD;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#xD;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#xD;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#xD;
+	at org.springframework.test.context.junit4.statements.ProfileValueChecker.evaluate(ProfileValueChecker.java:103)&#xD;
+	at org.springframework.test.context.junit4.rules.SpringClassRule$TestContextManagerCacheEvictor.evaluate(SpringClassRule.java:190)&#xD;
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#xD;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#xD;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)</failure>
+  </testcase>
+  <testcase classname="br.com.springboot.rest_treinamento.requests.GreetingsControllerTest" name="greetSpring" time="0.01">
+    <failure>java.lang.AssertionError: Status expected:&lt;200&gt; but was:&lt;404&gt;&#xD;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:55)&#xD;
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:82)&#xD;
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:619)&#xD;
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:195)&#xD;
+	at br.com.springboot.rest_treinamento.requests.GreetingsControllerTest.greetSpring(GreetingsControllerTest.java:77)&#xD;
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)&#xD;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)&#xD;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#xD;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#xD;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#xD;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#xD;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)&#xD;
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)&#xD;
+	at org.springframework.test.context.junit4.statements.RunPrepareTestInstanceCallbacks.evaluate(RunPrepareTestInstanceCallbacks.java:64)&#xD;
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)&#xD;
+	at org.springframework.test.context.junit4.statements.SpringFailOnTimeout.evaluate(SpringFailOnTimeout.java:87)&#xD;
+	at org.springframework.test.context.junit4.statements.ProfileValueChecker.evaluate(ProfileValueChecker.java:103)&#xD;
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#xD;
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#xD;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#xD;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#xD;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#xD;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#xD;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#xD;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#xD;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#xD;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#xD;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#xD;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#xD;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#xD;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#xD;
+	at org.springframework.test.context.junit4.statements.ProfileValueChecker.evaluate(ProfileValueChecker.java:103)&#xD;
+	at org.springframework.test.context.junit4.rules.SpringClassRule$TestContextManagerCacheEvictor.evaluate(SpringClassRule.java:190)&#xD;
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#xD;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#xD;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)</failure>
+  </testcase>
+  <testcase classname="br.com.springboot.rest_treinamento.requests.GreetingsControllerTest" name="greetRodJohnson" time="0.007">
+    <failure>java.lang.AssertionError: Status expected:&lt;200&gt; but was:&lt;404&gt;&#xD;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:55)&#xD;
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:82)&#xD;
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:619)&#xD;
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:195)&#xD;
+	at br.com.springboot.rest_treinamento.requests.GreetingsControllerTest.greetRodJohnson(GreetingsControllerTest.java:95)&#xD;
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)&#xD;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)&#xD;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#xD;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#xD;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#xD;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#xD;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)&#xD;
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)&#xD;
+	at org.springframework.test.context.junit4.statements.RunPrepareTestInstanceCallbacks.evaluate(RunPrepareTestInstanceCallbacks.java:64)&#xD;
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)&#xD;
+	at org.springframework.test.context.junit4.statements.SpringFailOnTimeout.evaluate(SpringFailOnTimeout.java:87)&#xD;
+	at org.springframework.test.context.junit4.statements.ProfileValueChecker.evaluate(ProfileValueChecker.java:103)&#xD;
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#xD;
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#xD;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#xD;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#xD;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#xD;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#xD;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#xD;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#xD;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#xD;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#xD;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#xD;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#xD;
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)&#xD;
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)&#xD;
+	at org.springframework.test.context.junit4.statements.ProfileValueChecker.evaluate(ProfileValueChecker.java:103)&#xD;
+	at org.springframework.test.context.junit4.rules.SpringClassRule$TestContextManagerCacheEvictor.evaluate(SpringClassRule.java:190)&#xD;
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#xD;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#xD;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#xD;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)</failure>
+  </testcase>
+</testsuite>
+
